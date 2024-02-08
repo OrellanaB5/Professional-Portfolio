@@ -3,7 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="row">
+        <nav class="col">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="about" class="text-center my-5">
+          <div class="mb-4">
+            <h1>Brandon Orellana</h1>
+            <img
+              src="./assets/images/face.png"
+              alt="Brandon Orellana"
+              class="rounded-circle"
+            />
+          </div>
+          <p>
+            Hello! My name is Brandon Orellana and I am learning to be a web
+            developer. I am currently learning HTML, CSS, and JavaScript. I am
+            also learning how to use React and Node.js. I am excited to continue
+            learning and growing as a developer.
+          </p>
+        </section>
+        <section id="work" class="my-5">
+          <h2 class="h3 mb-3">My Work</h2>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <img
+                  src="./assets/images/library.png"
+                  alt="Book Organizer Project"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="h5 card-title">Project 1</h3>
+                  <a
+                    href="https://nicholascatalano.github.io/book-organizer/"
+                    class="btn btn-primary"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <img
+                  src="./assets/images/FoodieFinds.png"
+                  alt="Foodie Finds Project"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="h5 card-title">Project 2</h3>
+                  <a
+                    href="https://restaurant-blog-3f12d3a2bc88.herokuapp.com/"
+                    class="btn btn-primary"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="text-center my-5">
+          <h2 class="h3 mb-3">Contact Me</h2>
+          <p>
+            Please contact me via email at
+            <a href="mailto:brandondenzell566@gmail.com"
+              >brandondenzell566@gmail.com</a
+            >
+          </p>
+        </section>
+      </main>
+      <footer class="text-center my-5">
+        <p>&copy; 2024 Brandon Orellana</p>
+      </footer>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
