@@ -14,6 +14,6 @@ You can access the relevant portion of the webpage by clicking on the links in t
 
 ## Screenshot
 
-![Screenshot of my project](https://raw.githubusercontent.com/OrellanaB5/Professional-Portfolio/main/images/hwPic.png)
+![Screenshot of my project](https://raw.githubusercontent.com/OrellanaB5/Professional-Portfolio/main/assets/images/hwPic.png)
 
 
